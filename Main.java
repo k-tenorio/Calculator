@@ -20,6 +20,7 @@ public class Main {
 		
 		// TextField
 		JTextField field = new JTextField();
+		field.setFont(font);
 		field.setBounds(20, 20, 340, 50);
 		field.setEditable(true);
 		frame.add(field);
@@ -209,3 +210,4 @@ public class Main {
 	}
 
 }
+
